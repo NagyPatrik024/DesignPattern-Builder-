@@ -140,6 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DesignPattern.cpp" />
+    <ClCompile Include="HawaiiPizzaBuilder.cpp" />
+    <ClCompile Include="Pizza.cpp" />
+    <ClCompile Include="PizzaBuilder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HawaiiPizzaBuilder.h" />
+    <ClInclude Include="Pizza.h" />
+    <ClInclude Include="PizzaBuilder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

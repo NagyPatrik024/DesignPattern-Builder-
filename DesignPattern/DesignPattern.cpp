@@ -1,8 +1,7 @@
 #include <iostream>
+#include "HawaiiPizzaBuilder.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	HawaiiPizzaBuilder hawaiiPizzaBuilder;
 }
-
-
