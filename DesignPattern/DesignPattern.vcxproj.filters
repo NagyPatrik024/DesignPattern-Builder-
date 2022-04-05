@@ -27,6 +27,12 @@
     <ClCompile Include="HawaiiPizzaBuilder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Bake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpicyPizzaBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pizza.h">
@@ -36,6 +42,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="HawaiiPizzaBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpicyPizzaBuilder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

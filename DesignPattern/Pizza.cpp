@@ -1,4 +1,5 @@
 #include "Pizza.h"
+#include <iostream>
 
 void Pizza::SetDough(const std::string& dough)
 {
@@ -13,4 +14,9 @@ void Pizza::SetSauce(const std::string& sauce)
 void Pizza::SetTopping(const std::string& topping)
 {
 	mTopping = topping;
+}
+
+void Pizza::Info() const
+{
+	std::cout << "The pizza has " << mDough << " dough, " << mSauce << " sauce, " << mTopping << " topping." << std::endl;
 }
